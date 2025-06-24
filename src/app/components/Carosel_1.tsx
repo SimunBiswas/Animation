@@ -6,10 +6,10 @@ import { ArrowLeft, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 
 const images = [
-  '/images/image_1.jpg',
-  '/images/image_2.jpg',
-  '/images/image_3.jpg',
-  '/images/image_2.jpg',
+  '/images/AON.png',
+  '/images/OTWD.png',
+  '/images/Jedi.png',
+  '/images/Vanguard.png',
 ]
 
 export default function Carousel() {
@@ -41,7 +41,7 @@ export default function Carousel() {
   }
 
   return (
-    <div className="relative w-full max-w-5xl mx-auto overflow-hidden py-10 px-4">
+    <div className="relative w-full max-w-5xl overflow-hidden py-10 px-4">
       {/* Left Arrow */}
       <button
         onClick={() => paginate(-1)}
